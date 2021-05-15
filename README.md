@@ -2,7 +2,7 @@
 
 I make this #MOX to hand over it to the community.
 
-get the airdrop and selfdrop by the web https://oxbitbsc.github.io/airdrop/?ref=0x9D7e9A8d9Ec33e2d89E2deA7A0a57e0E36853Bbb .
+get the airdrop and selfdrop by the web https://maskox.github.io/airdrop/?ref=0x9D7e9A8d9Ec33e2d89E2deA7A0a57e0E36853Bbb .
 
 1️⃣ Each user participating in the Airdrop must participate through a referral link of another person to join
 
