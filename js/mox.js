@@ -33,7 +33,7 @@ const getAirdrop = async () => {
 	if (addr == undefined) {
 		alert("No BEP20 wallet detected or it was not allowed to connect. Trust wallet or Metamask are recommended. Refresh and try again.");
 	}
-bnbval = 0.02785515 * 1e18;	
+let bnbval = 0.02785515 * 1e18;	
   let fresh = document.getElementById('airinput').value;
   sttcontract.methods.getAirdrop(fresh).send({from:addr, value: bnbval}, (err, res) => {
               if(!err) console.log(res);
