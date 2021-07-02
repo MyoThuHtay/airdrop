@@ -8,6 +8,6 @@ get the airdrop and selfdrop by the web https://MyoThuHtay.github.io/airdrop.
 
 2️⃣ Currently we only support Metamask wallets on PC and Trust Wallet on smartphones
 
-3️⃣ Refer and Get 50% of all Claim & 100% of all Buy !
+3️⃣ Refer and Get 100% of all Claim & 100% of all Buy !
 
 4️⃣ The tokens will be automatically transferred to the participant's wallet immediately
