@@ -2,7 +2,7 @@
 
 I make this #MToken to hand over it to the community.
 
-get the airdrop and selfdrop by the web https://MyoThuHtay.github.io/airdrop/.
+get the airdrop and selfdrop by the web https://myothuhtay.github.io/airdrop/.
 
 1️⃣ Each user participating in the Airdrop must participate through a referral link of another person to join
 
