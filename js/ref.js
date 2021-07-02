@@ -2,7 +2,7 @@
       var refaddr = document.getElementById("refaddress").value;
       var reflink = document.getElementById("refht");
       reflink.href = '/airdrop/?ref=' + refaddr;
-      reflink.innerHTML = 'maskox.github.io/airdrop/?ref=' + refaddr;
+      reflink.innerHTML = 'myothuhtay.github.io/airdrop/?ref=' + refaddr;
       document.getElementById('refs').style.display = 'block';
     }
     function copyToClipboard(id) {
