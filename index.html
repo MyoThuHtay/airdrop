@@ -1,193 +1,198 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <!-- Making sure the web-site will scale fine on mobiles-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Trying to force IE to perform at its best-->
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <!-- Meta description, aim for about 150 characters-->
-        <meta name="description" content="Leading Decentralized Ecosystem in DeFi. Share and Get oxb token and bnb.">
-        <!-- Stylesheets-->
-        <link rel="stylesheet" href="./assets/css/materialize.min.css">
-        <link rel="stylesheet" href="./assets/css/nana-red.css">
-        <!-- Favicons-->
-        <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="./favicons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="./favicons/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="./favicons/manifest.json">
-        <link rel="shortcut icon" href="favicon.ico">
-        <meta name="theme-color" content="#ffffff">
-        <!-- Site title-->
-        <title>MOPS - Leading Decentralized Ecosystem in DeFi. Share and Get MToken token.</title>
 
-
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156346839-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-156346839-1');
-    </script>
-
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leading Decentralized Ecosystem in DeFi.</title>
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap-4.4.1.css" rel="stylesheet">
 </head>
-<body class="home-page-two">
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
 
-    <!-- Header Section -->
-    <header class="header-section">
-        <div class="header-warp">
-            <!-- logo -->
-            <a href="index.html" class="site-logo">
-                <img src="" alt="">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="airdrop.html">Airdrop</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
             </a>
-            <div class="nav-switch">
-                <i class="fa fa-bars"></i>
-            </div>
-        </div>
-    </header>
-    <!-- Header Section end-->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://exchange.pancakeswap.finance/#/swap">Buy</a>
+                        <a class="dropdown-item" href="https://exchange.pancakeswap.finance/#/add">Add Pool</a>
 
-    <body>
-
-        <!-- Canvas background-->
-        <canvas class="canvas" id="canvas"></canvas>
-        <!-- Hero section-->
-
-        <!-- Cases section-->
-
-        <section class="cases scrollspy" id="cases">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 center">
-					<img src="./favicons/apple-touch-icon.png"></img>
-                        <h2>MToken Airdrop </h2>
                     </div>
-                </div>
-            </div>
-        </section>
-<script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-ptex" class="countdown-timer" data-style="columns" data-timezone="America/New_York" data-textcolor="#f00518" data-date="2021-08-31 22:05" data-digitscolor="#f00505" data-unitscolor="#f01a1a">Airdrop and selfdrop end in pancakeswap list after</a>
+                </li>
 
-<section class="expertise scrollspy" id="expertise">
-            <div class="container center">
-                <div class="row">
-                    <div class="col s12">
-                        <h2>Claim Airdrop</h2>
-                        ( 2,500 MToken )
-                    </div>
-                </div>
-
-          <div id="airdroprow">
-            <div id="airdropcell">
-              <button class="btn btn-large btn-flat waves-effect waves-light" id="airbtn" onclick="getAirdrop()">Claim Airdrop</button>
-            </div>
-          </div>
-<br>
-          <h2>Buy MOPS (MToken)</h2>
-          <p>Min buy 0.01 ( 250,00 MToken ) </p>
-          <p>Max buy 10 ( 2,500,000 MToken ) </p>
-          <div id="buyrow">
-          <div id="buycell">
-          <input id="buyinput" class="input" value="0.01" placeholder="0.01"></input>
- <br>
- <br>
-          <button class="btn btn-large btn-flat waves-effect waves-light" id="airbtn" onclick="buystt()">Buy</button>
-
-          </div>
-          </div>
-
-          <h3>Invite By</h3>
-<br>
-
-          <p>Invited by wallet address is Required</p>
-<br>
-          <div id="airdroprow">
-            <div id="airdropcell">
-              <input id="airinput" class="input" placeholder="Invite By" value="0x0000000000000000000000000000000000000000"></input>
-          </div>
-          </div>
-<br>  
-
-    <section id="one" class="wrapper style1 special fade-up">
-      <span class="image fit main"><img src="#" alt="" /></span>
-      <div class="content">
-        <div class="container">
-
-
-          <header>
-            <h5>Refer and Get 100% of all Claim & 100% of all Buy !</h5>
-            
-          </header>
-          <div class="row">
-            <div class="col-6"><input type="text" name="address" id="refaddress" value="" placeholder="Your BEP20 Address"></div>
-            <div class="col-3"><a class="btn btn-large btn-flat waves-effect waves-light" onclick="getreflink()">Get Refer Link</a></div>
-          </div>
-          <br>
-          <span id="refs" style="display:none;">
-            <ul class="actions">
-              <li class="col-6"><a id="refht"></a></li>
-              <li class="col-3"><a class="btn btn-large btn-flat waves-effect waves-light" onclick="copyToClipboard('refht')">Copy</a></li>
             </ul>
-          </span>
-        </div>
-      </div>
-    </section>
-            <p >1️⃣ Each user participating in the Airdrop must participate through a referral link of another person to join</p>
-            <p >2️⃣ Currently we only support Metamask wallets on PC and Trust Wallet on smartphones</p>
-            <p >3️⃣ Refer and Get 100% of all Claim & 100% of all Buy</p>
-            <p >4️⃣ The tokens will be automatically transferred to the participant's wallet immediately</p>
-            </div>
-        </section> 
-	
-        <!-- Footer section-->
 
-        <footer>
+        </div>
+    </nav>
+    <section>
+        <div class="jumbotron text-center mt-2">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 l6">&copy; 2021 MOPS</div>
-                    <div class="col s12 l6">
-                        <a class="underline waves-effect waves-light" href="https://bscscan.com/token/0x2fd38c1a195a0994944e302be78d604d3a6cf22f">BSC Scan</a> 
+                    <div class="col-12">
+                        <h1>Leading Decentralized Ecosystem in DeFi</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, deleniti, ea nisi suscipit atque tempore aspernatur harum unde veritatis neque rem dolores assumenda. Recusandae facilis dolores cum iste assumenda accusamus.</p>
+                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- scripts-->
-    <script src="js/web3.js"></script>
-    <script src="js/mox.js"></script>
-    <script src="js/ref.js"></script>
- <script>
- function querySt(ji) {
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img class="mr-3" src="favicons/favicon-32x32.png" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img class="mr-3" src="favicons/favicon-32x32.png" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img class="mr-3" src="favicons/favicon-32x32.png" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Latest Work</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12 text-center">
+                    <img class="img-fluid" src="favicons/profilephoto.png" alt="">
+                    <h4>Lorem ipsum dolor sit amet, consectetur elit</h4>
+                    <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                </div>
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+                    <img class="img-fluid" src="favicons/profilephoto.png" alt="">
+                    <h4>Lorem ipsum dolor sit amet, consectetur elit</h4>
+                    <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-3 col-6"><img class="img-fluid float-right" src="favicons/apple-touch-icon.png" alt=""></div>
+                <div class="col-md-3 col-6"><img class="img-fluid float-left" src="favicons/apple-touch-icon.png" alt=""></div>
+                <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="favicons/apple-touch-icon.png" alt=""></div>
+                <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="favicons/apple-touch-icon.png" alt=""></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3 col-6"><img class="img-fluid float-right" src="favicons/apple-touch-icon.png" alt=""></div>
+                <div class="col-md-3 col-6"><img class="img-fluid float-left" src="favicons/apple-touch-icon.png" alt=""></div>
+                <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="favicons/apple-touch-icon.png" alt=""></div>
+                <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="favicons/apple-touch-icon.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore d</p>
+                    <button type="button" class="btn btn-success">Get in touch</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <h3 class="text-center">WHO WE ARE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, ducimus, sit, quibusdam quidem recusandae veniam eos quod error nisi repellat excepturi laboriosam aspernatur suscipit possimus consectetur dolores nihil labore
+                        quas eius illo accusamus nulla sed blanditiis porro accusantium. Perspiciatis, perferendis!</p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <h3 class="text-center">GET IN TOUCH</h3>
+                    <address class="text-center">
+              <strong>MyCompany, Inc.</strong><br>
+              Sunny Autumn Plaza, Grand Coulee,<br>
+              CA, 91308-4075, US<br>
+              <abbr title="Email">Email:</abbr>monlinepaymentsystem@gmail.com
+            </address>
+                </div>
+                <div class="col-md-4 col-12">
+                    <h3 class="text-center">NEWSLETTER</h3>
+                    <form>
+                        <div class="form-group col-12">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                            <button type="submit" class="btn btn-dark mt-2">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Copyright © MOPS. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+</body>
 
- hu = window.location.search.substring(1); 
- gy = hu.split("&");
-
-for (i=0;i<gy.length;i++) { 
-ft = gy[i].split("="); 
-if (ft[0] == ji) { 
- return ft[1]; 
- } 
- } 
- } 
- var ref = querySt("ref");
-
-
- if( ref==null){ 
- }else{ 
- document.getElementById('airinput').value = ref; 
- } 
- 
- </script>
-    </body>
 </html>
