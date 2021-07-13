@@ -1,8 +1,8 @@
     function getreflink(){
       var refaddr = document.getElementById("refaddress").value;
       var reflink = document.getElementById("refht");
-      reflink.href = '/airdrop/?ref=' + refaddr;
-      reflink.innerHTML = 'myothuhtay.github.io/airdrop/?ref=' + refaddr;
+      reflink.href = '/airdrop/airdrop.html?ref=' + refaddr;
+      reflink.innerHTML = 'myothuhtay.github.io/airdrop/airdrop.html?ref=' + refaddr;
       document.getElementById('refs').style.display = 'block';
     }
     function copyToClipboard(id) {
