@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: #151313;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -145,11 +145,13 @@ input, select, textarea {
 		}
 
 	h1 {
+		color: black;
 		font-size: 2.25em;
 		line-height: 1.35em;
 	}
 
 	h2 {
+		color: black;
 		font-size: 2em;
 		line-height: 1.35em;
 	}
@@ -1154,7 +1156,9 @@ input, select, textarea {
 					margin-left: 91.66667%;
 				}
 
-				.row > .col-12-medium {
+				.row > .col-12-medium .a:hover {
+					border-bottom-color: transparent !important;
+			color: #6bd4c8;
 					width: 100%;
 				}
 
@@ -2008,18 +2012,20 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #999;
+		color: #2A0708;
 		margin: 0 0 1.5em 0;
 		position: relative;
 	}
 
 	header h2 + p {
+		color: #2A0708;
 		font-size: 1.25em;
 		line-height: 1.5em;
 		margin-top: -1em;
 	}
 
 	header h3 + p {
+		color: #2A0708;
 		font-size: 1.1em;
 		line-height: 1.5em;
 		margin-top: -0.8em;
@@ -2028,6 +2034,7 @@ input, select, textarea {
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
+		color: #2A0708;
 		font-size: 0.9em;
 		line-height: 1.5em;
 		margin-top: -0.6em;
@@ -2065,7 +2072,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #555;
+		color: #260707;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -2835,19 +2842,19 @@ input, select, textarea {
 			}
 
 				.main.style2 a:hover {
-					color: #ffffff;
+					color: #683334;
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #ffffff;
+				color: #0A0A0A;
 			}
 
 			.main.style2 header p {
-				color: #ffffff;
+				color: #0A0A0A;
 			}
 
 			.main.style2 header.major:after {
-				background: #ffffff;
+				background: #0A0A0A;
 			}
 
 			.main.style2 input[type="submit"],
@@ -2855,8 +2862,8 @@ input, select, textarea {
 			.main.style2 input[type="button"],
 			.main.style2 button,
 			.main.style2 .button {
-				box-shadow: inset 0 0 0 1px #ffffff;
-				color: #ffffff !important;
+				box-shadow: inset 0 0 0 1px #0A0A0A;
+				color: #0A0A0A !important;
 			}
 
 				.main.style2 input[type="submit"]:hover,
