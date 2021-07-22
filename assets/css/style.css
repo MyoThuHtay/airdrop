@@ -307,7 +307,7 @@
 /* Base */
 
 body {
-    /* width: fit-content; */
+    width: fit-content;
     background: linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
     font-size: 16px;
 }
