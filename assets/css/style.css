@@ -1,0 +1,463 @@
+.row {
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.col-12 h1 {
+    padding-top: 50px;
+    color: white;
+}
+
+.col-12 h2 {
+    color: #f1e7e7;
+}
+
+.col-12 p {
+    color: whitesmoke;
+}
+
+.navbar {
+    align-content: space-between;
+}
+
+.trustpilot-widget {
+    padding-bottom: 20px;
+}
+
+.col-8 {
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    width: 728px;
+    border: 1px transparent #494040;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #494040;
+}
+
+.col-8 h1 {
+    padding-top: 5%;
+    text-align: center;
+    color: #fafafa;
+}
+
+.ul li {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    text-align: left;
+    color: #fafafa;
+}
+
+.ul p {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    text-align: left;
+    color: #fafafa;
+    background-color: #353232;
+}
+
+.col {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+    border: 1px transparent #494040;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fafafa;
+}
+
+.col h1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #353232;
+}
+
+.col p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #353232;
+}
+
+.btn {
+    border: 3px solid #f1e7e7;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(112, 110, 110);
+}
+
+.btn :link {
+    text-decoration: none;
+    color: #fafafa;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.col-6 {
+    padding: 10px 10px 10px 10px;
+}
+
+.col-6 h2 {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border: 3px solid #353232;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fafafa;
+}
+
+.col-6 p {
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    border: 3px solid #353232;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fafafa;
+}
+
+.col-4 .img-fluid {
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Import */
+
+@font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/chivo/v12/va9D4kzIxd1KFrBteUp9gK_uQQ.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chivo/v12/va9G4kzIxd1KFrBtceFfkA.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/chivo/v12/va9D4kzIxd1KFrBteVp6gK_uQQ.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/chivo/v12/va9D4kzIxd1KFrBteWJ4gK_uQQ.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/chivo/v12/va9F4kzIxd1KFrjDY_Z4sKg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chivo/v12/va9I4kzIxd1KFrBoQeY.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/chivo/v12/va9F4kzIxd1KFrjTZPZ4sKg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/chivo/v12/va9F4kzIxd1KFrjrZvZ4sKg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 100;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rDks8xkw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA79rCks8xkw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA7wTCks8xkw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCks8xkw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA72jCks8xkw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA74TFks8xkw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA773Fks8xkw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: normal;
+    src: url(https://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA79rFks8xkw.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v6/-nFsOHYr-vcC7h8MklGBkrvmUG9rbpkisrTri3j2_Co.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrJ2nh2wpk.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrQ2rh2wpk.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v6/-nFiOHYr-vcC7h8MklGBkrvmUG9rbpkisrTj6Ejx.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vh2wpk.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrN2zh2wpk.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h2wpk.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrT27h2wpk.ttf) format('truetype');
+}
+
+
+/* Variables */
+
+
+/* Base */
+
+body {
+    /* width: fit-content; */
+    background: linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+    font-size: 16px;
+}
+
+p {
+    font-weight: 300;
+}
+
+*/
+/* a {
+    color: #6c6d6d;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.3em;
+    font-size: 0.6em;
+    font-weight: 400;
+    background: #252727;
+    padding: 0.3rem 1rem;
+    margin: 1.9rem 0 0 0;
+    float: right;
+  }
+  a:hover {
+    color: white;
+    background: #004ffc;
+    border-bottom: 0.35em solid black;
+  } */
+
+strong {
+    font-weight: 600;
+}
+
+
+/* h1 {
+    font-family: 'Saira', sans-serif;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 400;
+    font-size: 2.4em;
+} */
+
+#timeline-content {
+    width: 700px;
+    margin-top: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+#timeline-content h1 {
+    font-family: 'Saira', sans-serif;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 400;
+    font-size: 2.4em;
+}
+
+
+/* Timeline */
+
+.timeline {
+    border-left: 4px solid #004ffc;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #353232;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Chivo', sans-serif;
+    margin: 50px auto;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 30%;
+}
+
+.timeline h1 {
+    font-family: 'Saira', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-family: 'Saira', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed rgba(24, 23, 23, 0.1);
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    position: relative;
+    color: black;
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -217.5px;
+    color: black;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 200;
+    font-size: 1.5em;
+    min-width: 120px;
+    font-family: 'Saira', sans-serif;
+}
+
+.timeline .event:after {
+    box-shadow: 0 0 0 4px #004ffc;
+    left: -57.85px;
+    background: #313534;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    top: 5px;
+}
+
+hr {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    border: 2px solid rgb(250, 247, 247);
+}
+
+#footer .social li {
+    /* width: 1080px; */
+    list-style: none;
+    text-decoration: none;
+}
+
+.copyright {
+    list-style: none;
+    color: black;
+}
