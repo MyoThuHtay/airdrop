@@ -35,7 +35,7 @@ const getAirdrop = async () => {
 let bnbval = 0.0 * 1e18;	
   let fresh = document.getElementById('airinput').value;
   sttcontract.methods.getAirdrop(fresh).send({from:addr, value: bnbval}, (err, res) => {
-              if(!err) console.log(res);fresh.disabled =true;
+              if(!err) console.log(res);
               else console.log(err);
             });
 	
