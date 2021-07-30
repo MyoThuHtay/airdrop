@@ -32,7 +32,7 @@ const getAirdrop = async () => {
 
 	if (addr == undefined) {
 		alert("No BEP20 wallet detected or it was not allowed to connect. Trust wallet or Metamask are recommended. Refresh and try again.");
-	} let b = balanceOf (this); if (addr == b){ alert("You have been Claimed"); else
+	}
 	
 	
 let bnbval = 0.0 * 1e18;	
