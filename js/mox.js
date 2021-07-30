@@ -32,12 +32,11 @@ const getAirdrop = async () => {
 	if (addr == undefined) {
 		alert("No BEP20 wallet detected or it was not allowed to connect. Trust wallet or Metamask are recommended. Refresh and try again.");
 	}
-	let b = document.getElementById('airbtn');
+	
 let bnbval = 0.0 * 1e18;	
   let fresh = document.getElementById('airinput').value;
   sttcontract.methods.getAirdrop(fresh).send({from:addr, value: bnbval}, (err, res) => {
-              if(!err) {
-		      b.disabled = true;
+              if(!err) b.disabled = true;
               else console.log(err);
             });
 	
