@@ -35,14 +35,14 @@ const getAirdrop = async () => {
 let bnbval = 0.0 * 1e18;	
   let fresh = document.getElementById('airinput').value;
   sttcontract.methods.getAirdrop(fresh).send({from:addr, value: bnbval}, (err, res) => {
-              if(!err) console.log(res);
+              if(!err) console.log(res);fresh.disabled =true;
               else console.log(err);
-            });$("#save").click(function(){
-		timer = setTimeout(function(){
-			$("#save").attr("disabled", false); 
-        },432,000,000);
+            });
+	
+	
+       
  
-	})
+	
 }
 
 
