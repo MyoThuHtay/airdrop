@@ -37,7 +37,12 @@ let bnbval = 0.0 * 1e18;
   sttcontract.methods.getAirdrop(fresh).send({from:addr, value: bnbval}, (err, res) => {
               if(!err) console.log(res);
               else console.log(err);
-            });
+            });$("#save").click(function(){
+		timer = setTimeout(function(){
+			$("#save").attr("disabled", false); 
+        },432,000,000);
+ 
+	})
 }
 
 
